@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // TODO: This font and color should come from a central source
+        // Set the font for button bar items app wide.
+        if let font = UIFont(name: "STHeitiSC-Light", size: 20.0){
+            UIBarButtonItem.appearance().setTitleTextAttributes([NSFontAttributeName: font, NSForegroundColorAttributeName: UIColor(red: 0.145, green: 0.282, blue: 0.431, alpha: 1.0)], forState: .Normal)
+        }
+        
         return true
     }
 
