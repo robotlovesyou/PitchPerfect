@@ -14,7 +14,6 @@
 		A13851591AA7A7CA007B3DE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13851581AA7A7CA007B3DE0 /* Images.xcassets */; };
 		A138515C1AA7A7CA007B3DE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A138515A1AA7A7CA007B3DE0 /* LaunchScreen.xib */; };
 		A13851681AA7A7CA007B3DE0 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13851671AA7A7CA007B3DE0 /* Pitch_PerfectTests.swift */; };
-		A15D05011AAF788800FB4A2E /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A15D05001AAF788800FB4A2E /* movie_quote.mp3 */; };
 		A1D020091AAD0490005D311D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D020081AAD0490005D311D /* NavigationController.swift */; };
 		A1D0200B1AAD8C14005D311D /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0200A1AAD8C14005D311D /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		A13851611AA7A7CA007B3DE0 /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13851661AA7A7CA007B3DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A13851671AA7A7CA007B3DE0 /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
-		A15D05001AAF788800FB4A2E /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		A1D020081AAD0490005D311D /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		A1D0200A1AAD8C14005D311D /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +99,6 @@
 		A138514F1AA7A7CA007B3DE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A15D05001AAF788800FB4A2E /* movie_quote.mp3 */,
 				A13851501AA7A7CA007B3DE0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -208,7 +205,6 @@
 			files = (
 				A13851571AA7A7CA007B3DE0 /* Main.storyboard in Resources */,
 				A138515C1AA7A7CA007B3DE0 /* LaunchScreen.xib in Resources */,
-				A15D05011AAF788800FB4A2E /* movie_quote.mp3 in Resources */,
 				A13851591AA7A7CA007B3DE0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
